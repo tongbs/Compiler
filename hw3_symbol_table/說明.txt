@@ -1,0 +1,7 @@
+在linux1工作站
+
+yacc -d parse.y
+flex scan.l
+gcc lex.yy.c y.tab.c node.c -ly -lfl -g -o a.out
+
+./a.out < testXXXXXX
