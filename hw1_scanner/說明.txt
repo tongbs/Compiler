@@ -1,0 +1,4 @@
+在linux1工作站上跑
+flex standard-pascal-no-yacc.l
+cc lex.yy.c
+./a.out testXXXX
