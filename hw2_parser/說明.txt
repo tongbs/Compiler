@@ -1,0 +1,5 @@
+在工作站linux1上執行
+yacc standard-pascal-no.y
+flex pascal.l
+gcc lex.yy.c y.tab.c node.c -ly -lfl -g -o a.out
+./a.out testXXXXX
